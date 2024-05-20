@@ -40,35 +40,53 @@
                 <img src="assets/sobreNos.png"/>
             </section>
             <img class="divisor" src="assets/divisorMain.png"/>
-            <section clas="main" id="cafeteria">
+            <section class="main" id="cafeteria">
                 <div class="texto-carrossel">
                     <h2>CAFETERIA</h2>
                     <hr>
                 </div>
                 <div class="carousel-container">
-                    <button><</button>
-                    <div class="carousel-slide">
-                        <img src="assets/cw/brigadeiro.png" alt="Imagem 1">
-                        <div class="carousel-text">
-                            <h2>Brigadeiro de capuccino</h2>
-                            <p>O brigadeiro de cappuccino é uma das guloseimas que enfeitam o balcão da doceria...</p>
+                    <button class="carousel-button left" id="left-button">&#9664;</button>
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <img src="assets/cw/brigadeiro.png" alt="Imagem 1">
+                                <div class="carousel-text">
+                                    <h2>Brigadeiro de capuccino</h2>
+                                    <p>O brigadeiro de cappuccino é uma das guloseimas que enfeitam o balcão da doceria...</p>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="assets/cw/chocolateCake.png" alt="Imagem 2">
+                                <div class="carousel-text">
+                                    <h2>Bolo de chocolate</h2>
+                                    <p>O bolo de chocolate é uma das sobremesas mais pedidas da Cafeteira, ele possui um recheio com...</p>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="assets/cw/gingerBread.png" alt="Imagem 3">
+                                <div class="carousel-text">
+                                    <h2>Pão de Mel</h2>
+                                    <p>O pão de mel é um dos doces mais tradicionais que temos, ele é recheado com doce de leite...</p>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="assets/cw/item4.png" alt="Imagem 4">
+                                <div class="carousel-text">
+                                    <h2>Item 4</h2>
+                                    <p>Descrição do Item 4...</p>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="assets/cw/item5.png" alt="Imagem 5">
+                                <div class="carousel-text">
+                                    <h2>Item 5</h2>
+                                    <p>Descrição do Item 5...</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="carousel-slide">
-                        <img src="assets/cw/chocolateCake.png" alt="Imagem 2">
-                        <div class="carousel-text">
-                            <h2>Bolo de chocolate</h2>
-                            <p>O bolo de chocolate é uma das sobremesas mais pedidas da Cafeteira, ele possui um recheio com...</p>
-                        </div>
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/cw/gingerBread.png" alt="Imagem 3">
-                        <div class="carousel-text">
-                            <h2>Pão de Mel</h2>
-                            <p>O pão de mel é um dos doces mais tradicionais que temos, ele é recheado com doce de leite...</p>
-                        </div>
-                    </div>
-                    <button>></button>
+                    <button class="carousel-button right" id="right-button">&#9654;</button>
                 </div>
             </section>
             <section class="sla" id="contato">
@@ -112,5 +130,6 @@
             <p>Todos os direitos reservados ©</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

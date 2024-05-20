@@ -23,25 +23,30 @@ ul {
 
 /*-------------------------------------------------------------------------------------------*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
     background-color: #57290B;
     width: 100%;
     height: 100px;
     border-radius: 1px 0px 0px 0px;
     opacity: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 
 nav a {
-    text-decoration: none;
     color: #fff;
 }
 
 ul.menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
     display: flex; /* Use flexbox para alinhar os itens */
+    align-items: center;
+    height: 100%;
 }
 
 li {
@@ -83,16 +88,8 @@ li a:hover {
 }
 
 .hero {
-    position: relative;
     text-align: center;
     color: #fff;
-}
-
-
-.hero img {
-    width: 100%; /* Para preencher todo o container */
-    height: auto; /* Altura automática com base na largura */
-    display: block; /* Remover espaço extra abaixo da imagem */
 }
 
 .hero h1 {
@@ -179,11 +176,12 @@ button {
 
 
 /*-------------------------------------------------------------------------------------------*/
+
+
 main {
     background-color: #80451f;
     padding-top: 50px;
 }
-
 
 .texto-carrossel {
     border: 3px solid var(--Marrom-Medio-Detalhe, #B2784A);
@@ -195,26 +193,30 @@ main {
     padding: 25px;
 }
 
+/*
+
 .carousel-container {
     width: 20%;
 
-    display: flex; /* Exibir slides em linha (horizontalmente) */
+    display: flex; 
     margin: 50px;
     background-color: #80451f;
 }
 
 .carousel-slide {
-    border: 5px solid #fff; /* Adiciona uma borda branca */
-    border-radius: px; /* Borda arredondada */
-    flex: 0 0 100%; /* Cada slide ocupa 100% da largura do contêiner */
+    border: 5px solid #fff; 
+    border-radius: px; 
+    flex: 0 0 100%; 
     margin: 20px;
 }
 
 .carousel-slide img {
     width: 100%;
     height: auto;
-    border-radius: 6px; /* Borda arredondada para a imagem */
+    border-radius: 6px; 
 }
+
+*/
 
 .carousel-text {
     text-align: center;
@@ -239,6 +241,74 @@ main {
     letter-spacing: 0.02em;
     text-align: left;
 }
+
+
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    flex: 0 0 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-text {
+    text-align: center;
+}
+
+.carousel-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.carousel-button.left {
+    left: 0;
+}
+
+.carousel-button.right {
+    right: 0;
+}
+
+.carousel-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
 
 
 
