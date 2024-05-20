@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria</title>
+    <meta name="description" content="projeto capacitação unect">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="sobre-nos">Sobre nós</a></li>
+                <li><a href="cafeteria">Cafeteria</a></li>
+                <li><span>Palavras Cafeinadas</span></li>
+                <li><a href="contato">Contato</a></li>
+                <li><a href="phone">Phone</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <section class="hero">
+                <img src="assets/backgroundHeader.png"/>
+                <div class="texto-sobre-imagem">
+                    <h1>Leia acompanhado de uma culinária de qualidade</h1>
+                    <h2>Aonde a paixão por livros e o amor por café sempre  tem lugar á mesa.</h2>
+                    <button>VENHA CONHECER --></button>
+                </div>
+            </section>
+            <section class="sobre-nos" id="sobre-nos">
+                <div class="content">
+                    <h2>SOBRE NÓS</h2>
+                    <hr>
+                    <p>A principal proposta da Cafeteria Palavras Cafeinadas é oferecer um espaço aconchegante, contendo um ambiente moderno e um atendimento completo, nela é possível provar refeições saborosas e ler excelentes livros.</p>
+                    <p>O sonho de Carolina era criar um espaço aonde pudesse unir seu amor por culinária e a enorme paixão por literatura, venha saber mais dessa jornada:</p>
+                    <button>FALE CONOSCO</button>
+                </div>
+                <img src="assets/sobreNos.png"/>
+            </section>
+            <img class="divisor" src="assets/divisorMain.png"/>
+            <section clas="main" id="cafeteria">
+                <div class="texto-carrossel">
+                    <h2>CAFETERIA</h2>
+                    <hr>
+                </div>
+                <div class="carousel-container">
+                    <button><</button>
+                    <div class="carousel-slide">
+                        <img src="assets/cw/brigadeiro.png" alt="Imagem 1">
+                        <div class="carousel-text">
+                            <h2>Brigadeiro de capuccino</h2>
+                            <p>O brigadeiro de cappuccino é uma das guloseimas que enfeitam o balcão da doceria...</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/cw/chocolateCake.png" alt="Imagem 2">
+                        <div class="carousel-text">
+                            <h2>Bolo de chocolate</h2>
+                            <p>O bolo de chocolate é uma das sobremesas mais pedidas da Cafeteira, ele possui um recheio com...</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/cw/gingerBread.png" alt="Imagem 3">
+                        <div class="carousel-text">
+                            <h2>Pão de Mel</h2>
+                            <p>O pão de mel é um dos doces mais tradicionais que temos, ele é recheado com doce de leite...</p>
+                        </div>
+                    </div>
+                    <button>></button>
+                </div>
+            </section>
+            <section class="sla" id="contato">
+                <<h2>ENTRE EM CONTATO</h2>>
+                <div class="container">
+                    <div class="loja-info">
+                        <span>19-991256972</span>
+                        <span>contato@gmail.com</span>
+                        <span>Av. Paulista, 1324 - Bela Vista, São Paulo - SP, 01310-100</span>
+                        <hr>
+                        <span>@palavrascafeinadas</span>
+                        <span>Palavras Cafeinadas</span>
+                        <span>Palavras Cafeinadas</span>
+                    </div>
+                    <div class="formulario">
+                        <form action="/enviar.php" method="POST">
+                            <div>
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome" required>
+                            </div>
+                            <div>
+                                <label for="E-Mail">E-Mail:</label>
+                                <input type="text" id="E-Mail" name="E-Mail" required>
+                            </div>
+                            <div>
+                                <label for="mensagem">Mensagem:</label>
+                                <textarea id="mensagem" name="mensagem" required></textarea>
+                            </div>
+                            <div>
+                                <button type="submit">Enviar Mensagem</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="slaqqtofazemdo">
+            <p>Desenvolvido por Unect Jr</p>
+            <p>Todos os direitos reservados ©</p>
+        </div>
+    </footer>
+</body>
+</html>

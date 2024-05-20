@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* reset css default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1c1516;
+    color: #FFFF;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+nav {
+    background-color: #57290B;
+    width: 100%;
+    height: 100px;
+    border-radius: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox para alinhar os itens */
+}
+
+li {
+    flex: 1; /* Faz com que os elementos ocupem proporções iguais */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.texto-sobre-imagem {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    text-align: left;
+
+    padding-bottom: 50px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+
+.hero img {
+    width: 100%; /* Para preencher todo o container */
+    height: auto; /* Altura automática com base na largura */
+    display: block; /* Remover espaço extra abaixo da imagem */
+}
+
+.hero h1 {
+    font-family: Open Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 76.26px;
+    text-align: left;
+}
+
+.hero h2 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+}
+
+button {
+    width: Fixed (283px)px;
+    height: Hug (57px)px;
+    top: 514px;
+    left: 120px;
+    padding: 12px 32px 12px 32px;
+    gap: 27px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #8F542E;
+    color: white;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+.sobre-nos {
+    background-color: white;
+    color: #1F0C00;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.content {
+    width: 100px;
+    flex: 1;
+    padding-left: 150px;
+}
+
+.sobre-nos h2 {
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.sobre-nos p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 500px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.sobre-nos hr {
+    width: 50%;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+.divisor {
+    width: 100%; /* Para preencher todo o container */
+    height: auto; /* Altura automática com base na largura */
+    display: block; /* Remover espaço extra abaixo da imagem */
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+main {
+    background-color: #80451f;
+    padding-top: 50px;
+}
+
+
+.texto-carrossel {
+    border: 3px solid var(--Marrom-Medio-Detalhe, #B2784A);
+    top: 129px;
+    left: 608px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 25px;
+}
+
+.carousel-container {
+    width: 20%;
+
+    display: flex; /* Exibir slides em linha (horizontalmente) */
+    margin: 50px;
+    background-color: #80451f;
+}
+
+.carousel-slide {
+    border: 5px solid #fff; /* Adiciona uma borda branca */
+    border-radius: px; /* Borda arredondada */
+    flex: 0 0 100%; /* Cada slide ocupa 100% da largura do contêiner */
+    margin: 20px;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px; /* Borda arredondada para a imagem */
+}
+
+.carousel-text {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: var(--Preto-Font, #1F0C00);
+}
+
+.carousel-text h2 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+}
+
+.carousel-text p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+.sla {
+    background-color: white;
+    padding-top: 100px;
+}
+
+.sla h2 {
+    color: black;
+    width: 438px;
+    height: 53px;
+    top: 2208px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.container {
+    color: #1F0C00;
+    
+    display: flex;
+    
+    width: 70%;
+    height: 70%;
+    padding: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    
+
+    
+}
+
+.loja-info {
+    background-color: #8f542e;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    height: 500px;
+}
+
+.loja-info span {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: left;
+    color: white;
+}
+
+.formulario {
+    padding: 50px;
+    padding-left: 40px;
+    height: 500px;
+    width: 600px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20x;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+footer {
+    background-color: #57290b;
+    width: 100%;
+    height: 75px;
+}
+
+.slaqqtofazendo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+
+footer p {
+    flex: 1;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
