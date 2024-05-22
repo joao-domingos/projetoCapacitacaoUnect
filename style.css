@@ -61,35 +61,27 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #555;
-}
-
 /*-------------------------------------------------------------------------------------------*/
-
-.hero img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
 
 .texto-sobre-imagem {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    width: 40%;
 
     text-align: left;
+    padding-left: 200px;
 
-    padding-bottom: 50px;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 .hero {
     text-align: center;
     color: #fff;
+    background-image: url(assets/backgroundHeader.png);
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .hero h1 {
@@ -98,6 +90,7 @@ li a:hover {
     font-weight: 700;
     line-height: 76.26px;
     text-align: left;
+    padding-bottom: 25px;
 }
 
 .hero h2 {
@@ -106,6 +99,7 @@ li a:hover {
     font-weight: 400;
     line-height: 33px;
     text-align: left;
+    padding-bottom: 25px;
 }
 
 button {
@@ -193,31 +187,6 @@ main {
     padding: 25px;
 }
 
-/*
-
-.carousel-container {
-    width: 20%;
-
-    display: flex; 
-    margin: 50px;
-    background-color: #80451f;
-}
-
-.carousel-slide {
-    border: 5px solid #fff; 
-    border-radius: px; 
-    flex: 0 0 100%; 
-    margin: 20px;
-}
-
-.carousel-slide img {
-    width: 100%;
-    height: auto;
-    border-radius: 6px; 
-}
-
-*/
-
 .carousel-text {
     text-align: center;
     padding: 20px;
@@ -272,11 +241,15 @@ main {
     justify-content: center;
     padding: 10px;
     box-sizing: border-box;
+    border: 5px solid #fff; 
+    border-radius: 5px; 
+    margin: 10px;
 }
 
 .carousel-slide img {
     max-width: 100%;
     height: auto;
+    border-radius: 3px;
 }
 
 .carousel-text {
