@@ -13,9 +13,12 @@
             <ul class="menu">
                 <li><a href="#sobre-nos">Sobre nós</a></li>
                 <li><a href="#cafeteria">Cafeteria</a></li>
-                <li><img src="assets/logo_escura 1.png"/><a>Palavras Cafeinadas</a></li>
+                <li class="logo">
+                    <img src="assets/logo_escura 1.png" class="logo-menu">
+                    <span class="logo-text">Palavras Cafeinadas</span>
+                </li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a><img src="assets/vetorPhone.png"/>19-991256972</a></li>
+                <li><a><img src="assets/vetorPhone.png" class="icon"/>19-991256972</a></li>
             </ul>
         </nav>
     </header>
@@ -40,10 +43,8 @@
             </section>
             <img class="divisor" src="assets/divisorMain.png"/>
             <section class="main" id="cafeteria">
-                <img class="divisor" src="assets/Cafe onda.png"/>
                 <div class="texto-carrossel">
                     <h2>CAFETERIA</h2>
-                    <hr>
                 </div>
                 <div class="carousel-container">
                     <button class="carousel-button left" id="left-button">&#9664;</button>
@@ -90,33 +91,36 @@
                 </div>
             </section>
             <section class="sla" id="contato">
-                <<h2>ENTRE EM CONTATO</h2>>
+                <h2>ENTRE EM CONTATO</h2>
                 <div class="container">
                     <div class="loja-info">
-                        <span>19-991256972</span>
-                        <span>contato@gmail.com</span>
-                        <span>Av. Paulista, 1324 - Bela Vista, São Paulo - SP, 01310-100</span>
+                        <span><img src="assets/framesContato/phone.png" class="icon"/>19-991256972</span>
+                        <span><img src="assets/framesContato/email.png" class="icon"/>contato@gmail.com</span>
+                        <span><img src="assets/framesContato/local.png" class="icon"/>Av. Paulista, 1324 - Bela Vista, São Paulo - SP, 01310-100</span>
                         <hr>
-                        <span>@palavrascafeinadas</span>
-                        <span>Palavras Cafeinadas</span>
-                        <span>Palavras Cafeinadas</span>
+                        <span><img src="assets/framesContato/ig.png" class="icon"/>@palavrascafeinadas</span>
+                        <span><img src="assets/framesContato/facebook.png" class="icon"/>Palavras Cafeinadas</span>
+                        <li class="logo">
+                            <img src="assets/framesContato/logo.png" class="logo-menu">
+                            <span class="logo-text">Palavras Cafeinadas</span>
+                        </li>
                     </div>
                     <div class="formulario">
                         <form action="/enviar.php" method="POST">
                             <div>
-                                <label for="nome">Nome:</label>
+                                <label for="nome">Nome</label>
                                 <input type="text" id="nome" name="nome" required>
                             </div>
                             <div>
-                                <label for="E-Mail">E-Mail:</label>
+                                <label for="E-Mail">E-Mail</label>
                                 <input type="text" id="E-Mail" name="E-Mail" required>
                             </div>
                             <div>
-                                <label for="mensagem">Mensagem:</label>
+                                <label for="mensagem">Mensagem</label>
                                 <textarea id="mensagem" name="mensagem" required></textarea>
                             </div>
                             <div>
-                                <button type="submit">Enviar Mensagem</button>
+                                <button type="submit">ENVIAR MENSAGEM</button>
                             </div>
                         </form>
                     </div>
@@ -125,7 +129,7 @@
         </div>
     </main>
     <footer>
-        <div class="slaqqtofazemdo">
+        <div class="slaqqtofazendo">
             <p>Desenvolvido por Unect Jr</p>
             <p>Todos os direitos reservados ©</p>
         </div>

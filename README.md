@@ -6,7 +6,7 @@ Este projeto é parte de um programa de capacitação para nivelar os conhecimen
 
 ## Projeto
 
-Você pode visualizar a landing page em funcionamento [aqui](https://www.figma.com/design/FkBGAlnBsLNp3lZxVlUMTb/PS-2024_1---Palavras-Cafeinadas-(Landing-Page)-(Copy)?node-id=4-203&t=ppPSDVWshfr0yrol-1).
+Molde do projeto no Figma [aqui](https://www.figma.com/design/FkBGAlnBsLNp3lZxVlUMTb/PS-2024_1---Palavras-Cafeinadas-(Landing-Page)-(Copy)?node-id=4-203&t=ppPSDVWshfr0yrol-1).
 
 ## Tecnologias Utilizadas
 
